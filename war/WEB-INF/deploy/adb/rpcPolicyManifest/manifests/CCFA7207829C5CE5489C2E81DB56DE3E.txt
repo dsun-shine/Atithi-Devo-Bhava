@@ -1,0 +1,2 @@
+serviceClass: com.ADB.client.GreetingService
+path: F67F9F0F37C918269CAF5EA03143DD61.gwt.rpc

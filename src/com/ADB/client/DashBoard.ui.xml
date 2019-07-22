@@ -1,0 +1,30 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'>
+	<ui:style>
+	
+	</ui:style>
+<m:MaterialPanel>
+<m:MaterialRow marginTop="100" marginLeft="320">
+<m:MaterialLabel text="Host DashBoard" fontSize="2em"/>
+</m:MaterialRow>
+<m:MaterialRow marginLeft="500">
+<m:MaterialColumn>
+<m:MaterialButton text="Create Profile"  ui:field="t1" waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+</m:MaterialColumn>
+<m:MaterialColumn>
+<m:MaterialButton text="Create Room" ui:field="t2"  waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+</m:MaterialColumn>
+<m:MaterialColumn ui:field="req">
+<m:MaterialButton text="Edit Profile" ui:field="t3"  waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+</m:MaterialColumn>
+<m:MaterialColumn >
+<m:MaterialButton text="Edit Room" ui:field="t4"  waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+</m:MaterialColumn>
+<m:MaterialColumn >
+<m:MaterialButton text="Upload Image" ui:field="t5"  waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+</m:MaterialColumn>
+</m:MaterialRow>
+</m:MaterialPanel>
+</ui:UiBinder> 

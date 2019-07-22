@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'>
+	<ui:style>
+	
+	</ui:style>
+<m:MaterialRow>
+<m:MaterialColumn >
+<m:MaterialCard backgroundColor="BLUE_GREY_DARKEN_1" marginTop="100" marginLeft="400" width="60%" height="50%">
+<m:MaterialCardContent textColor="WHITE">
+<m:MaterialCardTitle text="Registartion" iconType="ACCOUNT_CIRCLE" iconPosition="RIGHT"/>
+<m:MaterialTextBox label="Full Name" grid="s12" ui:field="t1"/> 
+<m:MaterialTextBox label="User Name" grid="s12" ui:field="t2"/>
+<m:MaterialTextBox label="Email Id" grid="s12"  ui:field="t3"/>
+<m:MaterialTextBox label="Password" grid="s12" type="PASSWORD" ui:field="t4"/>
+<m:MaterialTextBox label="Mobile No." grid="s12"  ui:field="t5"/>
+</m:MaterialCardContent>
+<m:MaterialCardAction>
+<m:MaterialButton text="REGISTER" ui:field="b1" width="100%"/>
+</m:MaterialCardAction>
+</m:MaterialCard>
+</m:MaterialColumn>
+</m:MaterialRow>
+</ui:UiBinder> 

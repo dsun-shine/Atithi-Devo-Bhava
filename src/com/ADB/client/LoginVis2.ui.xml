@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'>
+	<ui:style>
+	.rowCards{
+      opacity: 0;
+    }
+	</ui:style>
+<m:MaterialRow>
+<m:MaterialColumn>
+<m:MaterialCard backgroundColor="WHITE" marginTop="180" marginLeft="550" width="60%">
+<m:MaterialCardImage waves="LIGHT">
+<m:MaterialImage url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfbKx6rNxqtEO_4q6b7Aj71AFyA4E-LOqrS9bo9y3aMe6cOmiB"/>
+</m:MaterialCardImage>
+<m:MaterialCardContent textColor="BLACK">
+<m:MaterialTextBox label="User Name" ui:field="t1" grid="s12"/> 
+<m:MaterialTextBox label="Password" type="PASSWORD" ui:field="t2" grid="s12"/>
+</m:MaterialCardContent>
+<m:MaterialCardAction>
+<m:MaterialButton text="LOGIN" width="100%" ui:field="b1"/>
+</m:MaterialCardAction>
+</m:MaterialCard>
+</m:MaterialColumn>
+</m:MaterialRow>	
+</ui:UiBinder> 

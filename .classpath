@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER/GWT 2.8.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/hp/.p2/pool/plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt28_2.8.0.201710131939/gwt-2.8.1/gwt-user.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-2.0.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-addins-2.0.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-jquery-2.0.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-table-2.0.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-themes-2.0.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mysql-connector-java-5.1.47.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-io-1.4.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

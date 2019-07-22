@@ -1,0 +1,3 @@
+# Module adb
+# RPC service class, partial path of RPC policy file
+com.ADB.client.GreetingService, F67F9F0F37C918269CAF5EA03143DD61.gwt.rpc
